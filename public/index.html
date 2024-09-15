@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AI Text Summarizer App</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>AI Text Summarizer App</h1>
+        <p>Leverage AI to create concise summaries of long texts, articles, or research papers.</p>
+    </header>
+
+    <main>
+        <section class="description">
+            <p>Simply paste your text into the text area below and click "Summarize".</p>
+        </section>
+        <div class="container">
+            <div class="text-box">
+                <textarea id="text_to_summarize" name="text_to_summarize"
+                    placeholder="Paste in some text to summarize. (Min length is 200 chars. Max length is 100,000 chars.)"
+                    maxlength="100000"></textarea>
+                <button id="submit-button" class="submit-button">
+                    <span class="submit-button-text">Summarize</span>
+                </button>
+            </div>
+            <div class="text-box">
+                <textarea id="summary" name="summarized_text" placeholder="Summarized text will appear here"
+                    readonly></textarea>
+            </div>
+        </div>
+    </main>
+
+    <section class="cta-section">
+        <div class="cta-content">
+            <div class="cta-text">
+                <h2>Want to learn how to build apps like this?</h2>
+                <p>Join Postman's Student Program and elevate your software development and API skills to kickstart your
+                    career.</p>
+                <a href="https://www.postman.com/student-program/student-expert/?utm_campaign=CGC&utm_medium=referral&utm_source=internal&utm_term=pbl-skilljar&utm_content=pbl_summariser_app"
+                    class="cta-button" target="_blank" rel="noopener nofollow">Register as a Student</a>
+            </div>
+            <img src="images/learning.png" alt="Learning illustration">
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 AI Text Summarizer | Powered by AI</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
