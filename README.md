@@ -5,3 +5,5 @@ It is a user-friendly text summarization application using Node.js, Replit, the 
 It uses Postman to incorporate APIs into the applications with code and uses
 
 API call made to model facebook based mode BART (large-sized model), fine-tuned on CNN Daily Mail
+
+HuggingFace is an open-source for AI: [https://huggingface.co/facebook/bart-large-cnn]
